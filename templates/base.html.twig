@@ -7,8 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     {% block stylesheets %}
-
-        {{ encore_entry_link_tags('app') }}
+        <link rel="stylesheet" href="{{ asset('build/app.css') }}">
 
     {% endblock %}
 
@@ -27,7 +26,7 @@
 {% block body %}
 {% endblock %}
 {% block javascripts %}
-    {{ encore_entry_script_tags('app') }}
+    {{ asset('build/app.js') }}
 {% endblock %}
 </body>
 </html>
