@@ -8,8 +8,15 @@
 // any CSS you import will output into a single scss file (app.scss in this case)
 import '../scss/app.scss';
 
+const imagesContext = require.context('../images', true, /\.(png|jpg|jpeg|gif|ico|svg|webp)$/);
+imagesContext.keys().forEach(imagesContext);
+
+
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
-console.log("Test");
+
+
+
+

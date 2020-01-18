@@ -3,5 +3,40 @@
 {% block title %}Lobby{% endblock %}
 
 {% block body %}
+    <div class="pictureBox" style="display: none">
+        <img id='evilFace' src="{{ asset("build/assets/images/Bmertens.jpg") }}">
+    </div>
+    <div class="pictureBox" style="display: none">
+        <img id='evilCirl' src="{{ asset("build/assets/images/BmertensCirl.jpg") }}">
+    </div>
+    <div class="body container-fluid">
+        <div class="backgroundLobby">
+            <div class="mainSection my-5">
+                <main>
+                    <div class="lobbyBody rounded-pill mt-4 mx-auto py-3 col-2">
+                        <header class="row headerBjorn">
+                            <h1 class="headerLobby col-12 text-center">Hello</h1>
+                            <h2 class="headerLobby col-12 text-center">Welcome to the Lobby</h2>
+                        </header>
+                    </div>
+                </main>
+            </div>
+            <div class="boxWrapper mx-auto text-center">
+                <div id="tvWrapper">
+                    <img id="tvPic" src="{{ asset('build/assets/images/tv.png')}}" alt="">
+                    <canvas id="tvCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('lobby') }}
+    {% endblock %}
 
 {% endblock %}

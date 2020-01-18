@@ -24,7 +24,7 @@ Encore
      * and one CSS file (e.g. app.scss) if your JavaScript imports CSS.
      */
     .addEntry('app', './assets/js/app.js')
-    //.addEntry('page1', './assets/js/page1.js')
+    .addEntry('lobby', './assets/js/lobby.js')
     //.addEntry('page2', './assets/js/page2.js')
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
@@ -42,6 +42,9 @@ Encore
      * https://symfony.com/doc/current/frontend.html#adding-more-features
      */
     .cleanupOutputBeforeBuild()
+    .configureFilenames({
+        images: '[path][name].[hash:8].[ext]',
+    })
     .enableBuildNotifications()
     .enableSourceMaps(!Encore.isProduction())
     // enables hashed filenames (e.g. app.abc123.scss)
@@ -57,6 +60,7 @@ Encore
     .enableSassLoader()
 
     // uncomment if you use TypeScript
+    //.addEntry('main', './assets/main.ts')
     //.enableTypeScriptLoader()
 
     // uncomment to get integrity="..." attributes on your script & link tags

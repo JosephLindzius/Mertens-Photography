@@ -1,0 +1,42 @@
+.boxWrapper {
+  width: 602px;
+  height: 304px;
+  #tvWrapper {
+    position: relative;
+    #tvPic {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 103%;
+      z-index: 0;
+    }
+    #tvCanvas {
+      border-radius: 50px;
+      position: absolute;
+      height: 170px;
+      top: 74px;
+      left: 144px;
+      z-index: -1;
+    }
+  }
+}
+
+
+
+.headerBjorn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lobbyBody {
+  background-color: black;
+  .headerLobby {
+      color: whitesmoke;
+
+  }
+}
+
+.mainSection {
+  position: relative;
+}

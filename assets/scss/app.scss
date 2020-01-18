@@ -1,3 +1,18 @@
-body {
-    background-color: lightgray;
+@import "~bootstrap/scss/bootstrap";
+@import "assets/scss/partials/lobby";
+@import "assets/scss/partials/profile";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+*{
+  font-family: 'Indie Flower', cursive;
 }
+
+.headerlinks {
+  display:inline;
+  font-size: 30px;
+ .bjorn {
+   font-size: 1em;
+ }
+}
+
+

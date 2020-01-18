@@ -5,15 +5,15 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LobbyController extends AbstractController
+class ProfileController extends AbstractController
 {
     /**
-     * @Route("/", name="lobby")
+     * @Route("/profile", name="profile")
      */
     public function index()
     {
-        return $this->render('lobby/index.html.twig', [
-            
+        return $this->render('profile/index.html.twig', [
+            'controller_name' => 'ProfileController',
         ]);
     }
 }
