@@ -1,13 +1,13 @@
 {
-  "build/0.34b51704.js": "/build/0.34b51704.js",
-  "build/1.2eafdf3a.js": "/build/1.2eafdf3a.js",
-  "build/app.css": "/build/app.e5e89a40.css",
-  "build/app.js": "/build/app.21f733bd.js",
-  "build/lobby.js": "/build/lobby.a015c8f1.js",
-  "build/runtime.js": "/build/runtime.1103dde6.js",
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/lobby.js": "/build/lobby.js",
+  "build/runtime.js": "/build/runtime.js",
+  "build/vendors~app~lobby.js": "/build/vendors~app~lobby.js",
+  "build/vendors~lobby.js": "/build/vendors~lobby.js",
   "build/assets/images/Bmertens.jpg": "/build/assets/images/Bmertens.ed469c06.jpg",
   "build/assets/images/BmertensCirl.jpg": "/build/assets/images/BmertensCirl.6c1ede8a.jpg",
-  "build/assets/images/camera.png": "/build/assets/images/camera.d901d749.png",
+  "build/assets/images/camera.png": "/build/assets/images/camera.47a43448.png",
   "build/assets/images/toilet.jpg": "/build/assets/images/toilet.4796abfc.jpg",
   "build/assets/images/tv.png": "/build/assets/images/tv.1845f8d5.png"
 }
