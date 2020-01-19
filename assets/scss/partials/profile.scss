@@ -10,3 +10,18 @@
   align-items: center;
   flex-direction: column;
 }
+
+.imageOnProfile {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: revealPicture 1000ms ease-in;
+  animation: revealPicture 1000ms ease-in;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes revealPicture{
+  0%{opacity:0}
+  100%{opacity:1}
+}

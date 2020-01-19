@@ -7,18 +7,21 @@
     <section class="row d-flex justify-content-center">
         <article class="col-2">
             <header class="text-center my-4">I am Bjorn</header>
-            <img src="{{ asset('build/assets/images/Bmertens.jpg') }}" alt="">
+            <img class="imageOnProfile" src="{{ asset('build/assets/images/Bmertens.jpg') }}" alt="">
         </article>
         <div class="col-4"></div>
         <article class="col-6 profileInfo">
             <p>I am a photographer</p>
-            <img src="{{ asset('build/assets/images/camera.png') }}" alt="">
+            <img class="imageOnProfile" src="{{ asset('build/assets/images/camera.png') }}" alt="">
 
         </article>
     </section>
     <section class="row my-5 d-flex flex-column">
         <article class="text-center">I love to chat with people while I take pictures</article>
-        <img src="{{ asset('build/assets/images/toilet.jpg') }}" alt="">
+        <img class="imageOnProfile" src="{{ asset('build/assets/images/toilet.jpg') }}" alt="">
     </section>
 </main>
+    {% block javascripts %}
+        {{ encore_entry_script_tags('profile') }}
+    {% endblock %}
 {% endblock %}

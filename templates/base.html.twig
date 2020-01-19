@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     {% block stylesheets %}
         <link rel="stylesheet" href="{{ asset('build/app.css') }}">
 
@@ -17,7 +18,7 @@
 <nav class="navbar-inverse sticky-top">
     <div class="container-fluid py-2">
         <ul class="nav navbar-nav navbar headerlinks">
-            <li class=""><a class="navbar-brand font-weight-bold bjorn" href="#">Bjorn Photography</a></li>
+            <li class=""><a class="navbar-brand font-weight-bold bjorn" href="{{ path('lobby') }}">Bjorn Photography</a></li>
             <li class=""><a href="{{ path('lobby') }}">Home</a></li>
             <li class=""><a href="{{ path('profile') }}">Profile</a></li>
         </ul>

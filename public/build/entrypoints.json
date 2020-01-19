@@ -7,7 +7,7 @@
         "/build/app.238ea240.js"
       ],
       "css": [
-        "/build/app.e5e89a40.css"
+        "/build/app.1be4782d.css"
       ]
     },
     "lobby": {
@@ -16,6 +16,12 @@
         "/build/0.34b51704.js",
         "/build/1.2eafdf3a.js",
         "/build/lobby.a015c8f1.js"
+      ]
+    },
+    "profile": {
+      "js": [
+        "/build/runtime.1103dde6.js",
+        "/build/profile.fe197113.js"
       ]
     }
   }
